@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#header {
+    display: block;
+    background-color: gray;
+    height: 120px;
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+#header h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    top: 15px;
+    color: lightgray;
+}
+
+#header h2 {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    top: 15px;
+    color: lightgray;
+}
+
+#container {
+    display: block;
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.tableAddition {
+    border: none;
+}
+
+a:link, a:visited {
+    color: dimgray;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#homeButton {
+    display: block;
+    position: relative;
+    float: right;
+    top: 5px;
+    right: 55px;
+}
+
+#homeButton button {
+    display: block;
+    position: absolute;
+}
+
+.error {
+    color: red;
+}
+
+.message {
+    color: green;
+}
+
+#logIn {
+    position: relative;
+    text-align: right;
+    float: right;
+}
